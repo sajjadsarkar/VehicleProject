@@ -16,17 +16,6 @@ public class GetMenuSelection : MonoBehaviour
         UpdateVehicleSelection();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        // Check for changes in selection
-        if (isCarSelected != MenuManager.Instance.isCar ||
-            isBikeSelected != MenuManager.Instance.isBike ||
-            isTruckSelected != MenuManager.Instance.isTruck)
-        {
-            UpdateVehicleSelection();
-        }
-    }
 
     private void UpdateVehicleSelection()
     {
