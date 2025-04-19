@@ -13,6 +13,15 @@ public class GameManager : MonoBehaviour
     {
         SetLightsEnabled(false);
     }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            LightOnOff();
+        }
+    }
+
     public void StartStop()
     {
         if (isOn)
