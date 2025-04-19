@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
 {
@@ -39,6 +40,7 @@ public class MenuManager : MonoBehaviour
         isCar = true;
         isBike = false;
         isTruck = false;
+        SceneManager.LoadScene(1);
     }
 
     public void SelectBike()
@@ -46,6 +48,7 @@ public class MenuManager : MonoBehaviour
         isCar = false;
         isBike = true;
         isTruck = false;
+        SceneManager.LoadScene(1);
     }
 
     public void SelectTruck()
@@ -53,5 +56,6 @@ public class MenuManager : MonoBehaviour
         isCar = false;
         isBike = false;
         isTruck = true;
+        SceneManager.LoadScene(1);
     }
 }
