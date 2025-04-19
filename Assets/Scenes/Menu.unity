@@ -372,6 +372,7 @@ GameObject:
   - component: {fileID: 546736609}
   - component: {fileID: 546736608}
   - component: {fileID: 546736607}
+  - component: {fileID: 546736610}
   m_Layer: 5
   m_Name: Car
   m_TagString: Untagged
@@ -493,6 +494,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 546736605}
   m_CullTransparentMesh: 1
+--- !u!114 &546736610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546736605}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50bbf6132063c9941a1c3aabf37128fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverScale: 1.1
+  tweenDuration: 0.3
 --- !u!1 &578116565
 GameObject:
   m_ObjectHideFlags: 0
@@ -505,6 +520,7 @@ GameObject:
   - component: {fileID: 578116569}
   - component: {fileID: 578116568}
   - component: {fileID: 578116567}
+  - component: {fileID: 578116570}
   m_Layer: 5
   m_Name: Truck
   m_TagString: Untagged
@@ -626,6 +642,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 578116565}
   m_CullTransparentMesh: 1
+--- !u!114 &578116570
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 578116565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50bbf6132063c9941a1c3aabf37128fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverScale: 1.1
+  tweenDuration: 0.3
 --- !u!1 &674616573
 GameObject:
   m_ObjectHideFlags: 0
@@ -1133,6 +1163,7 @@ GameObject:
   - component: {fileID: 1521279191}
   - component: {fileID: 1521279190}
   - component: {fileID: 1521279189}
+  - component: {fileID: 1521279192}
   m_Layer: 5
   m_Name: Bike
   m_TagString: Untagged
@@ -1254,6 +1285,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1521279187}
   m_CullTransparentMesh: 1
+--- !u!114 &1521279192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521279187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50bbf6132063c9941a1c3aabf37128fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoverScale: 1.1
+  tweenDuration: 0.3
 --- !u!1 &1589786425
 GameObject:
   m_ObjectHideFlags: 0
