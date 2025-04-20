@@ -8,7 +8,7 @@ public class MenuManager : MonoBehaviour
     public bool isCar = false;
     public bool isBike = false;
     public bool isTruck = false;
-
+    public bool Boat = false;
     void Awake()
     {
         if (Instance != null && Instance != this)
@@ -56,6 +56,15 @@ public class MenuManager : MonoBehaviour
         isCar = false;
         isBike = false;
         isTruck = true;
+        SceneManager.LoadScene(1);
+    }
+
+    public void SelectBoat()
+    {
+        isCar = false;
+        isBike = false;
+        isTruck = false;
+        Boat = true;
         SceneManager.LoadScene(1);
     }
 }

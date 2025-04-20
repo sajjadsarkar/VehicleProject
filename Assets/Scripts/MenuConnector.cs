@@ -14,4 +14,9 @@ public class MenuConnector : MonoBehaviour
     {
         MenuManager.Instance.SelectTruck();
     }
+
+    public void SelectBoat()
+    {
+        MenuManager.Instance.SelectBoat();
+    }
 }
